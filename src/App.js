@@ -17,7 +17,7 @@ function App() {
   return (
     <div style={{height:'100%'}}>
       
-      <BrowserRouter>
+      <BrowserRouter><a href="https://reactjs.org">Learn React</a>
       <Provider store={store}>
       <Switch>
         <Route  exact path='/'><Register  /></Route>
